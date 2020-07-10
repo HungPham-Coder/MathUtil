@@ -10,7 +10,7 @@ This repo contains the source code of a simple Java application used to demostra
 ## Connect me via
 1. [GitHub](https://github.com/HungPham-Coder) 
 2. [Facebook](https://www.facebook.com/rilytoken)
-3. [Gmail](https://mail.google.com/mail/u/0/#inbox)
+3. [Email](https://mail.google.com/mail/u/0/#inbox)
 4. [Youtube](https://www.youtube.com/channel/UCRN5fwRsCiq53-q6gCDzIeQ?view_as=subscriber)
 
 #### © 2020 by HungPham-Coder
