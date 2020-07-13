@@ -1,4 +1,4 @@
-# Welcome to HungPham-Coder repository
+# Welcome to HungPham-Coder Repository
 This repo contains the source code of a simple Java application used to demostrate the CI - Continous Integration process - a part of Introduction to Software Engineering course at FPT University - HCMC Campus
 
 ## You will find in this repo:
