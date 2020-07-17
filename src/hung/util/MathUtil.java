@@ -10,9 +10,9 @@ public class MathUtil
     public static long computeFactorial(int n)
     {
         long result = 1;
-        for (int i = 2; i < n; i++) 
+        for (int i = 1; i <= n; i++) 
         {
-            result *= n;
+            result *= i;
         }
         return result;
     }
