@@ -9,6 +9,7 @@ import static org.junit.Assert.*;
  *
  * @author KenLy
  */
+
 public class MathUtilTest 
 {  
     @Test       //bao cho jvm biet rang day la ham math()

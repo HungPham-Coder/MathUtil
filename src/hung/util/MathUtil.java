@@ -7,6 +7,7 @@ public class MathUtil
     //tinh n! = 1,2,3,...,n Vi n1 tang gia tri rat nhanh, som tarn mien int
     //int chua toi da 2 ty 1, nen ta xai dong moi an toan
     //that ra 15! da to lam roi nen ta chi tinh giai thua tu 15 tro lai
+   
     public static long computeFactorial(int n)
     {
         long result = 1;
