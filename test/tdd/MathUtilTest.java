@@ -26,6 +26,7 @@ public class MathUtilTest
         assertEquals(1, MathUtil.computeFactorial(0));
         assertEquals(1, MathUtil.computeFactorial(1));
         assertEquals(2, MathUtil.computeFactorial(2));
+        
         //muon xanh, thi tat ca phai xanh, dung het cho 1 case
         //neu tat ca xanh, co 1 thang do, coi nhu bo
         //vi ham y: code phai chay dung theo moi tinh huong
