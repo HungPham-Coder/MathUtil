@@ -10,7 +10,7 @@ public class MathUtil
    
     public static long computeFactorial(int n)
     {
-        if(n < 0)
+        if(n < 0 || n > 15)
         {
             throw new IllegalArgumentException("Invalid Input. n must be >= 0");
         }
