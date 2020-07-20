@@ -14,6 +14,7 @@ public class MathUtil
         {
             throw new IllegalArgumentException("Invalid Input. n must be >= 0");
         }
+        
         long result = 1;
         for (int i = 1; i <= n; i++) 
         {
