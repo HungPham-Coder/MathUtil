@@ -9,7 +9,6 @@ import static org.junit.Assert.*;
  *
  * @author KenLy
  */
-
 public class MathUtilTest 
 {  
     @Test       //bao cho jvm biet rang day la ham math()
@@ -45,7 +44,7 @@ public class MathUtilTest
         //trong khi do nem ra ngoai le k phai la actual value de so sanh
         //ta phai xai chieu khac khi bat ngoai le
         //la ngoai le minh can ham
-        //computeFactorial(-5);
+        computeFactorial(-5);
         computeFactorial(16);   //giai thua tang rat nhanh -> khong choi qua 15
     }
     
