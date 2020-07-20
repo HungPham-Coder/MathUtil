@@ -10,6 +10,10 @@ public class MathUtil
    
     public static long computeFactorial(int n)
     {
+        if(n < 0)
+        {
+            throw new IllegalArgumentException("Invalid Input. n must be >= 0");
+        }
         long result = 1;
         for (int i = 1; i <= n; i++) 
         {
