@@ -1,5 +1,6 @@
 package mathutil;
 import static hung.util.MathUtil.computeFactorial;
+import static hung.util.MathUtil.computeFactorialRecrusion;
 
 public class MathUtil 
 {
@@ -16,6 +17,6 @@ public class MathUtil
         System.out.println("0! = "+ computeFactorial(0));
         
         //expected Exception if cF(-5)8
-        System.out.println("-5! = "+ computeFactorial(-5));
+        System.out.println("-5! = "+ computeFactorialRecrusion(-5, 1));
     }
 }

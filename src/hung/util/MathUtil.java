@@ -12,8 +12,7 @@ public class MathUtil
         if(n < 0 || n > 15)
         {
             throw new IllegalArgumentException("Invalid Input. n must be >= 0");
-        }
-        
+        }        
         if(n == 0 || n == 1)
         {
             return 1;
@@ -22,5 +21,10 @@ public class MathUtil
         //song sot den dong lenh cho nay thi n chac chan roi vao tu 2 -> 15
         //khong can xai else
         return n * computeFactorial(n - 1);        //n * (n - 1)!
+    }
+    
+    public static long computeFactorialRecrusion(int n, int result)
+    {
+        return computeFactorialRecrusion(n - 1, result * n);
     }
 }
